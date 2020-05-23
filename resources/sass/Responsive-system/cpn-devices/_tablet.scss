@@ -1,0 +1,199 @@
+.row{
+	@include respond(tablet){
+		margin-left: -8px;
+		margin-right: -8px;
+	}
+}
+
+.col{
+	@include respond(tablet){
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+
+.mo-0{
+	@include respond(tablet){
+		display: none;
+	}
+}
+
+.mo-1,
+.mo-2,
+.mo-3,
+.mo-4,
+.mo-5,
+.mo-6,
+.mo-7,
+.mo-8,
+.mo-9,
+.mo-10,
+.mo-11,
+.mo-12 {
+	@include respond(tablet){
+		display: block;
+	}	
+}
+
+.mo-1 {
+
+	@include respond(tablet){
+		flex: 0 0 8.33333%;
+		max-width: 8.33333%;
+	}
+
+	
+}
+.mo-2 {
+	@include respond(tablet){
+		flex: 0 0 16.66667%;
+		max-width: 16.66667%;
+	}
+	
+}
+.mo-3 {
+	@include respond(tablet){
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	
+}
+.mo-4 {
+	@include respond(tablet){
+		flex: 0 0 33.33333%;
+		max-width: 33.33333%;
+	}
+	
+}
+.mo-5 {
+	@include respond(tablet){
+		flex: 0 0 41.66667%;
+		max-width: 41.66667%;
+	}
+	
+}
+.mo-6 {
+	@include respond(tablet){
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	
+}
+.mo-7 {
+	@include respond(tablet){
+		flex: 0 0 58.33333%;
+		max-width: 58.33333%;
+	}
+	
+}
+.mo-8 {
+	@include respond(tablet){
+		flex: 0 0 66.66667%;
+		max-width: 66.66667%;
+	}
+	
+}
+.mo-9 {
+	@include respond(tablet){
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	
+}
+.mo-10 {
+	@include respond(tablet){
+		flex: 0 0 83.33333%;
+		max-width: 83.33333%;
+	}
+	
+}
+.mo-11 {
+	@include respond(tablet){
+		flex: 0 0 91.66667%;
+		max-width: 91.66667%;
+	}
+	
+}
+.mo-12 {
+	@include respond(tablet){
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	
+}
+.mo-o-1 {
+	@include respond(tablet){
+		margin-left: 8.33333%;
+	}
+	
+}
+
+.mo-o-2 {
+	@include respond(tablet){
+		margin-left: 16.66667%;
+	}
+	
+}
+
+.mo-o-3 {
+	@include respond(tablet){
+		margin-left: 25%;
+	}
+	
+}
+
+.mo-o-4 {
+	@include respond(tablet){
+		margin-left: 33.33333%;
+	}
+	
+}
+
+.mo-o-5 {
+	@include respond(tablet){
+		margin-left: 41.66667%;
+	}
+	
+}
+
+.mo-o-6 {
+	@include respond(tablet){
+		margin-left: 50%;
+	}
+	
+}
+
+.mo-o-7 {
+	@include respond(tablet){
+		margin-left: 58.33333%;
+	}
+	
+}
+
+.mo-o-8 {
+	@include respond(tablet){
+		margin-left: 66.66667%;
+	}
+	
+}
+
+.mo-o-9 {
+	@include respond(tablet){
+		margin-left: 75%;
+	}
+}
+
+
+.mo-o-10 {
+	@include respond(tablet){
+		margin-left: 83.33333%;
+	}
+	
+}
+
+.mo-o-11 {
+	@include respond(tablet){
+		margin-left: 91.66667%;
+	}
+	
+}

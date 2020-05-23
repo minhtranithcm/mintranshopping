@@ -1,0 +1,224 @@
+.wide {
+    @include respond(tab-land){
+       width: 984px;
+   }   
+}
+.wide .row {
+    @include respond(tab-land){
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    
+}
+.wide .row.sm-gutter {
+    @include respond(tab-land){
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    
+}
+.wide .col {
+    @include respond(tab-land){
+       padding-left: 12px;
+       padding-right: 12px;
+   }
+
+}
+.wide .row.sm-gutter .col {
+    @include respond(tab-land){
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+}
+.wide .l-0 {
+    @include respond(tab-land){
+        display: none;
+    }
+    
+}
+.wide .l-1,
+.wide .l-2,
+.wide .l-2-4,
+.wide .l-3,
+.wide .l-4,
+.wide .l-5,
+.wide .l-6,
+.wide .l-7,
+.wide .l-8,
+.wide .l-9,
+.wide .l-10,
+.wide .l-11,
+.wide .l-12 {
+    @include respond(tab-land){
+        display: block;
+    }
+    
+}
+.wide .l-1 {
+    @include respond(tab-land){
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    
+}
+.wide .l-2 {
+    @include respond(tab-land){
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    
+}
+.wide .l-2-4 {
+    @include respond(tab-land){
+       flex: 0 0 20%;
+       max-width: 20%;
+   }
+
+}
+.wide .l-3 {
+    @include respond(tab-land){
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    
+}
+.wide .l-4 {
+    @include respond(tab-land){
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    
+}
+.wide .l-5 {
+    @include respond(tab-land){
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    
+}
+.wide .l-6 {
+    @include respond(tab-land){
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+}
+.wide .l-7 {
+    @include respond(tab-land){
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    
+}
+.wide .l-8 {
+    @include respond(tab-land){
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    
+}
+.wide .l-9 {
+    @include respond(tab-land){
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    
+}
+.wide .l-10 {
+    @include respond(tab-land){
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    
+}
+.wide .l-11 {
+    @include respond(tab-land){
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    
+}
+.wide .l-12 {
+    @include respond(tab-land){
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+}
+.wide .l-o-1 {
+    @include respond(tab-land){
+        margin-left: 8.33333%;
+    }
+    
+}
+
+.wide .l-o-2 {
+    @include respond(tab-land){
+        margin-left: 16.66667%;
+    }
+    
+}
+
+.wide .l-o-3 {
+    @include respond(tab-land){
+       margin-left: 25%;
+   }
+
+}
+
+.wide .l-o-4 {
+    @include respond(tab-land){
+        margin-left: 33.33333%;
+    }
+    
+}
+
+.wide .l-o-5 {
+    @include respond(tab-land){
+        margin-left: 41.66667%;
+    }
+    
+}
+
+.wide .l-o-6 {
+    @include respond(tab-land){
+        margin-left: 50%;
+    }
+    
+}
+
+.wide .l-o-7 {
+    @include respond(tab-land){
+        margin-left: 58.33333%;
+    }
+    
+}
+
+.wide .l-o-8 {
+    @include respond(tab-land){
+       margin-left: 66.66667%;
+   }
+
+}
+
+.wide .l-o-9 {
+    @include respond(tab-land){
+        margin-left: 75%;
+    }
+    
+}
+
+.wide .l-o-10 {
+    @include respond(tab-land){
+        margin-left: 83.33333%;
+    }
+    
+}
+
+.wide .l-o-11 {
+    @include respond(tab-land){
+        margin-left: 91.66667%; 
+    }
+    
+}

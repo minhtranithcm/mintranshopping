@@ -1,0 +1,50 @@
+@mixin clearFix{
+	&::after{
+		content: "";
+		display:block;
+		clear:both;
+	}
+}
+
+@mixin absCenter{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+@mixin respond($breakpoint){
+
+	/* <= phone */
+	@if $breakpoint == small-phone{
+		@media (max-width: 321px){@content};
+	}
+
+	/* <= phone 739px | 1em trong media la 16px ok*/ 
+	@if $breakpoint == phone{
+		@media (max-width: 46.1875em){@content};
+	}
+	
+	/* >= Tablet 740 */
+	@if $breakpoint == tablet{
+		@media (min-width: 46.25em){@content};		
+	}
+
+	/* Tablet - PC low resolution 740px - 1023px ok*/
+	@if $breakpoint == tab-port{
+		@media (min-width: 46.25em) and (max-width: 63.9375em){@content};
+	}
+	
+	/* > PC Low 1024px - 1239px ok*/
+	@if $breakpoint == tab-land{
+		@media (min-width:64em) and (max-width: 77.4375em){@content};
+	}
+
+	/* PC medium resolution > 1113px */
+	@if $breakpoint == big-desktop{
+		@media (min-width: 69.5625em){@content};
+	}
+}	
+
+

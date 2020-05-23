@@ -1,0 +1,103 @@
+.sidebar{
+	width: 225px;	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	min-height: 100vh;
+	background-color: $color-white;	
+
+	&--nav{
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+	}
+
+	&__brand-logo{			
+		height: $height-navi;
+		display: -ms-flexbox;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+	    border-bottom: 1px solid rgba(66, 59, 116, 0.15);		
+	}	
+
+	&__logo-icon{
+		width: 35px;
+		margin-right: .5rem;
+	}
+
+	&__logo-text{		
+		color:$color-secondary-black-1;
+		font-size: 1.3rem;		
+		text-transform: uppercase;		
+		font-weight: 400;
+		position: relative;
+		display: inline-block;
+		text-transform: uppercase;		
+	}
+
+	&__list{
+		margin: 0;
+		padding: 0;    	
+		list-style-type: none;
+	}
+
+	&__item{    		
+		display: block;
+		height: 3.6rem;	    		   
+		text-align: left;		
+
+		&--dropdown{
+			position: relative;
+			&::after{
+				width: 1rem;
+				position: absolute;
+				content: "\f107";
+				top: 50%;
+				left: 87%;	    		 	
+				transform: translateY(-50%);
+							    
+				font-weight: 900;			    
+				font-family: 'fontAweSome';
+
+				border: 0;
+
+			}
+		}	    	    
+	}
+
+	&__link:link,
+	&__link:visited{
+		color: $color-secondary-black-1;	
+		text-decoration:none;	
+		display: block;
+		width: 100%;    	
+		height: inherit;
+
+		&:hover{
+			color: $color-grey-light-2;
+		}	   
+	}
+
+	&__link--active{
+		color:$color-white!important;
+	}
+
+
+
+	&__title-page{
+		font-size: 1.3rem;
+		display: inline;
+	}
+
+	&__dropdown-menu{
+		display: none;
+	}
+
+}

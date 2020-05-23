@@ -1,0 +1,26 @@
+.bread-crumb{
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	
+	padding: .5rem 0;
+	margin-bottom: 1rem;
+
+	border-radius: .25rem;
+	list-style: none;	
+
+    &__link{
+        text-decoration: none;
+    }
+
+    &__item{
+        padding-right: .5rem;
+        &+ &::before{
+            display: inline-block;
+            padding-right: .5rem;
+            color: #6c757d;
+            content: "/";
+        }
+    }     	
+}

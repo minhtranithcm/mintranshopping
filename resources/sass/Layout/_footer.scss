@@ -1,0 +1,17 @@
+.footer{
+	width: 100%;	
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	background-color: $color-white;
+	border-top: 1px solid rgba($color-black, 0.15);
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+
+	&__copyright{
+		font-size: 1.3rem;
+		color: rgba($color-black, 0.65);
+	}
+}

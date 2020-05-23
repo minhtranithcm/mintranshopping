@@ -1,0 +1,103 @@
+.card-block{
+	margin-bottom: 25px;
+	padding: 0 1.25rem;
+	box-shadow: 0 5px 15px $color-border-1, 0 3px 6px $color-border-2;
+	border: none;
+	background-color: #ffffff;
+
+	&__header{
+		padding: 0.75rem 0;
+		margin-bottom: 0;
+		background: transparent;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+		font-weight: 600;
+		font-size: 1.333333rem;
+		color: #353434;
+
+		&:first-child{
+			border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+		}
+	}
+
+	&__body{
+		padding: 1.25rem 0;
+		color: $color-secondary-dark;
+		table th,
+		table td{
+			padding: 1.25rem;
+		}
+	}
+
+    &__body-label{
+        padding-top: calc(1.375rem + 1px);
+        padding-bottom: calc(1.375rem + 1px);
+        margin-bottom: 0;
+        font-size: 1rem;
+        line-height: 1;
+        font-weight: bold;
+    }
+
+    &__form-ctl{
+        padding: 1.375rem .75rem;
+
+        &--rounded{
+            border-radius: 30px !important;
+        }
+    }
+
+	&__img-product{
+		height: 32px;
+	}
+
+	&__dropzone{
+		min-height: 230px;
+		border: 2px dashed rgba(0, 0, 0, 0.3);
+		background: white;
+		border-radius: 6px;
+	}
+
+	&__form-vertical,
+	&__form-horizontal{
+		label{
+			color: #585858;
+			font-size: 1rem;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: 600;
+			margin-bottom: 10px;
+		}	
+
+		input::placeholder,
+		{
+			color: $color-grey-light!important;
+		}	
+		input:-ms-input-placeholder{
+			color: $color-grey-light!important;
+		}
+		input::-ms-input-placeholder{
+			color: $color-grey-light!important;
+		}
+	}	
+
+	
+
+    &__register-btn{
+        color: #fff;
+        background-color: #7934f3;
+
+        border-color: #7934f3;
+        border-radius: .25rem;
+
+        font-size: .95rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: 9px 19px;
+
+        text-transform: uppercase;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, .075);
+    }    
+	
+}
+
+
+

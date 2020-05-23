@@ -1,0 +1,218 @@
+.row {
+    @include respond(big-desktop){
+       margin-left: -12px;
+       margin-right: -12px;
+    }
+}
+.row.sm-gutter {
+    @include respond(big-desktop){
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+}
+.col {
+    @include respond(big-desktop){
+       padding-left: 12px;
+       padding-right: 12px;
+   }
+
+}
+.row.sm-gutter .col {
+    @include respond(big-desktop){
+       padding-left: 5px;
+       padding-right: 5px;
+   }
+
+}
+.l-0 {
+    @include respond(big-desktop){
+        display: none;
+    }
+
+}
+.l-1,
+.l-2,
+.l-2-4,
+.l-3,
+.l-4,
+.l-5,
+.l-6,
+.l-7,
+.l-8,
+.l-9,
+.l-10,
+.l-11,
+.l-12 {
+    @include respond(big-desktop){
+        display: block;
+    }
+
+}
+.l-1 {
+    @include respond(big-desktop){
+       flex: 0 0 8.33333%;
+       max-width: 8.33333%;
+   }
+
+}
+.l-2 {
+    @include respond(big-desktop){
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+
+}
+.l-2-4 {
+    @include respond(big-desktop){
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+}
+.l-3 {
+    @include respond(big-desktop){
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+}
+.l-4 {
+    @include respond(big-desktop){
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+
+}
+.l-5 {
+    @include respond(big-desktop){
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+
+}
+.l-6 {
+    @include respond(big-desktop){
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+}
+.l-7 {
+    @include respond(big-desktop){
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+
+}
+.l-8 {
+    @include respond(big-desktop){
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+
+}
+.l-9 {
+    @include respond(big-desktop){
+       flex: 0 0 75%;
+       max-width: 75%;
+   }
+
+}
+.l-10 {
+    @include respond(big-desktop){
+       flex: 0 0 83.33333%;
+       max-width: 83.33333%;
+   }
+
+}
+.l-11 {
+    @include respond(big-desktop){
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+
+}
+.l-12 {
+    @include respond(big-desktop){
+       flex: 0 0 100%;
+       max-width: 100%;
+   }
+
+}
+.l-o-1 {
+    @include respond(big-desktop){
+       margin-left: 8.33333%;
+   }
+
+}
+
+.l-o-2 {
+    @include respond(big-desktop){
+       margin-left: 16.66667%;
+   }
+
+}
+
+.l-o-3 {
+    @include respond(big-desktop){
+       margin-left: 25%;
+   }
+
+}
+
+.l-o-4 {
+    @include respond(big-desktop){
+        margin-left: 33.33333%;
+    }
+
+}
+
+.l-o-5 {
+    @include respond(big-desktop){
+        margin-left: 41.66667%;
+    }
+
+}
+
+.l-o-6 {
+    @include respond(big-desktop){
+       margin-left: 50%;
+   }
+
+}
+
+.l-o-7 {
+    @include respond(big-desktop){
+        margin-left: 58.33333%;
+    }
+
+}
+
+.l-o-8 {
+    @include respond(big-desktop){
+       margin-left: 66.66667%;
+   }
+
+}
+
+.l-o-9 {
+    @include respond(big-desktop){
+        margin-left: 75%;
+    }
+
+}
+
+.l-o-10 {
+    @include respond(big-desktop){
+       margin-left: 83.33333%;
+   }
+
+}
+
+.l-o-11 {
+    @include respond(big-desktop){
+        margin-left: 91.66667%;
+    }
+
+}
